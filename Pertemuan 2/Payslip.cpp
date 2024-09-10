@@ -21,5 +21,6 @@ int main(){
     cout<<"Tax (20%) = "<<"Rp"<<tax<<",-"<<"\n";
     cout<<"Installment = "<<"Rp"<<installment<<",-"<<"\n";
     cout<<"Insurance = "<<"Rp"<<insurance<<",-"<<"\n";
-    cout<<"Net Salary = "<<"Rp"<<net<<",-"<<"\n";
+    cout<<"Net Salary = "<<"Rp"<<net<<",-"<<"\n"<<"\n";
+    system("pause");
 }

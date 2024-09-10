@@ -134,4 +134,6 @@ int main(){
 			cout<<"\n"<<"The solution isn't' as expected";
 		}
 	}
+	cout<<"\n";
+    system("pause");
 }

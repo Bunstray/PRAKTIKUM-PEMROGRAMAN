@@ -28,5 +28,6 @@ int main(){
 	else{
 		cout<<"There is no real roots (the roots are complex)"<<"\n";
 	}
-	
+	cout<<"\n";
+    system("pause");
 }
