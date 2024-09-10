@@ -1,2 +1,3 @@
-# PRAKTIKUM2
+# PRAKTIKUM PEMROGRAMAN
+
 Tugas Praktikum
