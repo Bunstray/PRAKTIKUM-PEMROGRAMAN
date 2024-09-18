@@ -1,11 +1,22 @@
-soal2: soal2.o  
-	g++ -o soal2 soal2.o 
+do: multiplication test2
 
-soal2.o: soal2.cpp
-	g++ -c soal2.cpp
+multiplication: multiplication.o  
+	g++ -o multiplication multiplication.o 
+
+test2: test.o
+	g++ -o test2 test.o
+
+multiplication.o: multiplication.cpp
+	g++ -c multiplication.cpp
+
+test.o: test.cpp
+	g++ -c test.cpp
 
 run: 
-	./soal2
+	./multiplication
+
+test:
+	./test2
 
 clean:
-	rm -f soal2 soal2.o
+	rm -f multiplication multiplication.o test2 test.o

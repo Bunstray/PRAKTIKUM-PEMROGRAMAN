@@ -1,8 +1,22 @@
-soal1: soal1.o  
-	g++ -o soal1 soal1.o 
+do: sum test1
 
-soal1.o: soal1.cpp
-	g++ -c soal1.cpp
+sum: sum.o  
+	g++ -o sum sum.o 
+
+test1: test.o
+	g++ -o test1 test.o
+
+sum.o: sum.cpp
+	g++ -c sum.cpp
+
+test.o: test.cpp
+	g++ -c test.cpp
+
+run:
+	./sum
+
+test:
+	./test1
 
 clean:
-	rm -f soal1 soal1.o
+	rm -f sum sum.o test1 test.o
