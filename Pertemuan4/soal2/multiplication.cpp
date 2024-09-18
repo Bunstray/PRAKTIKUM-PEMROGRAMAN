@@ -1,8 +1,9 @@
 #include <bits/stdc++.h>
+#define ll long long
 using namespace std;
 
 signed main(){
-	int n;
+	ll n;
 	cout<<"Input : ";cin>>n;
 	cout<<"Output : \n";
 	for(int i=1;i<=10;i++){
