@@ -1,0 +1,61 @@
+Andi
+1200000
+100000
+100000
+Payslip for Employee
+---------------------
+Name = Andi
+Gross Salary = Rp1200000,-
+Tax (20%) = Rp240000,-
+Installment = Rp100000,-
+Insurance = Rp100000,-
+Net Salary = Rp760000,-
+Banda
+100000
+20000
+25000
+Payslip for Employee
+---------------------
+Name = Banda
+Gross Salary = Rp100000,-
+Tax (20%) = Rp20000,-
+Installment = Rp20000,-
+Insurance = Rp25000,-
+Net Salary = Rp35000,-
+Cepak
+2000
+100
+200
+Payslip for Employee
+---------------------
+Name = Cepak
+Gross Salary = Rp2000,-
+Tax (20%) = Rp400,-
+Installment = Rp100,-
+Insurance = Rp200,-
+Net Salary = Rp1300,-
+Dinda
+10000000
+1000000
+300000
+Payslip for Employee
+---------------------
+Name = Dinda
+Gross Salary = Rp10000000,-
+Tax (20%) = Rp2000000,-
+Installment = Rp1000000,-
+Insurance = Rp300000,-
+Net Salary = Rp6700000,-
+Efri
+3000000
+500000
+200000
+Payslip for Employee
+---------------------
+Name = Efri
+Gross Salary = Rp3000000,-
+Tax (20%) = Rp600000,-
+Installment = Rp500000,-
+Insurance = Rp200000,-
+Net Salary = Rp1700000,-
+

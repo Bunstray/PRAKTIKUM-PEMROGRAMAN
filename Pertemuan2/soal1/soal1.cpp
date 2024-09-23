@@ -18,9 +18,9 @@ int main(){
     cout<<"Payslip for Employee"<<"\n";
     cout<<"---------------------"<<"\n";
     cout<<"Name = "<<name<<"\n";
+    cout<<"Gross Salary = "<<"Rp"<<gross<<",-"<<"\n";
     cout<<"Tax (20%) = "<<"Rp"<<tax<<",-"<<"\n";
     cout<<"Installment = "<<"Rp"<<installment<<",-"<<"\n";
     cout<<"Insurance = "<<"Rp"<<insurance<<",-"<<"\n";
-    cout<<"Net Salary = "<<"Rp"<<net<<",-"<<"\n"<<"\n";
-    system("pause");
+    cout<<"Net Salary = "<<"Rp"<<net<<",-\n";
 }
