@@ -1,0 +1,111 @@
+2
+101 Apple 3000 5
+102 Banana 1500 10
+---
+Item (1)
+Code : 101
+Name : Apple
+Price : Rp3000
+Amount : 5
+
+Item (2)
+Code : 102
+Name : Banana
+Price : Rp1500
+Amount : 10
+
+Average Price: Rp2250
+---
+3
+201 Chair 10000 2
+202 Table 25000 1
+203 Lamp 7500 4
+---
+Item (1)
+Code : 201
+Name : Chair
+Price : Rp10000
+Amount : 2
+
+Item (2)
+Code : 202
+Name : Table
+Price : Rp25000
+Amount : 1
+
+Item (3)
+Code : 203
+Name : Lamp
+Price : Rp7500
+Amount : 4
+
+Average Price: Rp14166.67
+---
+1
+301 Phone 999999 1
+---
+Item (1)
+Code : 301
+Name : Phone
+Price : Rp999999
+Amount : 1
+
+Average Price: Rp999999
+---
+4
+401 Pen 2000 50
+402 Notebook 5000 30
+403 Eraser 1000 40
+404 Marker 3000 20
+---
+Item (1)
+Code : 401
+Name : Pen
+Price : Rp2000
+Amount : 50
+
+Item (2)
+Code : 402
+Name : Notebook
+Price : Rp5000
+Amount : 30
+
+Item (3)
+Code : 403
+Name : Eraser
+Price : Rp1000
+Amount : 40
+
+Item (4)
+Code : 404
+Name : Marker
+Price : Rp3000
+Amount : 20
+
+Average Price: Rp2750
+---
+3
+501 Monitor 250000 3
+502 Keyboard 75000 5
+503 Mouse 30000 10
+---
+Item (1)
+Code : 501
+Name : Monitor
+Price : Rp250000
+Amount : 3
+
+Item (2)
+Code : 502
+Name : Keyboard
+Price : Rp75000
+Amount : 5
+
+Item (3)
+Code : 503
+Name : Mouse
+Price : Rp30000
+Amount : 10
+
+Average Price: Rp118333.34
+---

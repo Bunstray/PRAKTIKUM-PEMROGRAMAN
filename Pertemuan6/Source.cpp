@@ -12,7 +12,7 @@ struct necessity{
 signed main(){
 	int n;
 	float mean=0;
-	cout<<"How many kind(s) of stuff :";
+	cout<<"How many kind of item(s) :";
 	cin>>n;
 	if(n>50){
 		cout<<"Error : Too much request";
@@ -35,5 +35,5 @@ signed main(){
 		cout<<"\nPrice : Rp"<<stuff[i].price;
 		cout<<"\nAmount : "<<stuff[i].amount<<"\n";
 	}
-	cout<<"\nAverage Price of"<<mean;
+	cout<<"\nAverage Price of "<<mean<<"\n";
 }
