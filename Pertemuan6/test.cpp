@@ -13,7 +13,6 @@ string formatPrice(float price) {
     ostringstream oss;
     oss << fixed << setprecision(2) << price;
     string priceStr = oss.str();
-    // Remove unnecessary trailing zeros and decimal point if not needed
     if (priceStr.find('.') != string::npos) {
         priceStr.erase(priceStr.find_last_not_of('0') + 1, string::npos);
         if (priceStr.back() == '.') {
@@ -39,16 +38,14 @@ int main() {
         int n;
         float mean = 0;
 
-        // Read the number of items
+        
         dataFile >> n;
-        dataFile.ignore(); // Ignore the newline character after the number
+        dataFile.ignore(); 
 
-        // Break if the end of file is reached
         if (dataFile.eof()) break;
 
         if (n > 50) {
             cout << "Test Case " << testCaseNumber << ": Error: Too much request" << endl;
-            // Skip to the next test case
             while (getline(dataFile, line)) {
                 if (line == "---") break;
             }
@@ -63,10 +60,8 @@ int main() {
         }
         mean /= n;
 
-        // Skip any remaining whitespace or newline characters
         dataFile.ignore();
 
-        // Collect generated output
         vector<string> generatedOutput;
         for (int i = 0; i < n; i++) {
             generatedOutput.push_back("Item (" + to_string(i + 1) + ")");
@@ -78,12 +73,10 @@ int main() {
         }
         generatedOutput.push_back("Average Price: Rp" + formatPrice(mean));
 
-        // Skip to the expected output section
         while (getline(dataFile, line)) {
             if (line == "---") break;
         }
 
-        // Compare the generated output with the expected output for this test case
         cout << "Test Case " << testCaseNumber << ":\n";
         int lineNumber = 1;
         bool testCaseMatch = true;
@@ -97,7 +90,6 @@ int main() {
             lineNumber++;
         }
 
-        // Check if the file has extra lines or ends before expected
         if (getline(dataFile, line) && !line.empty() && line != "---") {
             cout << "The expected output has extra lines beyond the generated output.\n";
             testCaseMatch = false;
@@ -114,10 +106,8 @@ int main() {
         cout << "--------------------------------------" << endl;
     }
 
-    // Close the file
     dataFile.close();
 
-    // Final output comparison result
     if (isSame) {
         cout << "All test cases passed." << endl;
     } else {
